@@ -42,7 +42,7 @@ The operation to be executed is defined by the HTTP verb:
 4. .env contains all the environment URI that are needed during production or test, as well as the port being used
 5. all mongoose models and schemas are located inside models folder with the appropriate naming (e.g user.js for user model)
 6. all route handlers and controllers are located inside controllers folders with the appropriate naming (e.g users.js serving /api/users has methods to get,create,delete,update resources)
-7. all tests related files are located insided tests folder
+7. all tests related files are located inside tests folder
 8. config.js inside utils folder is the file that determines which url/uri is gonna used according to the environment
 9. logger.js inside utils folder provides the logging necessary for the middlewares and the execution of the application
 10. middleware.js contains all the custom middlewares used on the app
@@ -72,6 +72,7 @@ Some of the ways to make requests:
 
 1. Postman desktop client
 2. Visual Studio REST client
+   1. Examples of requests are provided in the folder requests
 3. curl
    1. GET => curl http://localhost:3003
    2. POST => curl -d '{"name":"arash","dob":"1990-11-22","address":"Silvian Lane","description":""}' -H "Content-Type: application/json" -X POST http://localhost:3003/api/users
