@@ -1,0 +1,7 @@
+PUT http://localhost:3003/api/users/631dfff247fc1209f70c5a96
+Content-Type: application/json
+
+{
+    "name":"Ivar Tsavarov",
+    "address":"Sofia, Bulgaria"
+}
