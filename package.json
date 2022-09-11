@@ -1,7 +1,7 @@
 {
-    "name": "backend",
+    "name": "backend-app1",
     "version": "0.0.1",
-    "description": "nothing yet",
+    "description": "first instance of the app",
     "main": "index.js",
     "scripts": {
         "start": "cross-env NODE_ENV=production node index.js",
